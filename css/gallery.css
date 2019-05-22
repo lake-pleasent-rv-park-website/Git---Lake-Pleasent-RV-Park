@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+}
+.header {
+	z-index: 2;
+	position: absolute;
+	top: 0px;
+	height: 106px;
+	width: 100%;
+	background-color: rgb(255,255,255,0.2);
+	display: flex;
+    justify-content: space-between;
+}
+
+#site_logo {
+	height: 100%;
+	left: 0px;
+	display: inline-block;
+}
+
+nav {
+	display: table; 
+	margin: auto 0;
+	width: 652px;
+	z-index: 3;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	width: 150px;
+	display: inline-block;
+}
+
+#hero_image {
+	width: 1900px;
+	height: 900px;
+	top: 0px;
+}
+
+.hero_cover {
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	height: 910px;
+	width: 1600px;
+	background-color:rgba(255,255,255,0.3);
+}
+.hero {
+	z-index: 0;
+	top: 0px;
+}
