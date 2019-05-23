@@ -30,7 +30,18 @@ Gallery page image border radius: 80
 Footer:
 Footer container background color: #00184A, opacity: 90%
 Footer background image will be added to images as: footerbgimg
-Footer background image: opacity: 40%, blur: 50
+Footer background image: opacity: 40%, blur: 50%
 Footer middle column background color: #000438, opacity: 50%
 Google Map: border-color: #A18C51, border-radius: 40, add soft drop shadow
-Copyright container strip background color: #10133B
+Copyright container strip background color: #10133B, opacity: 100%
+
+Images:
+Header background image: opacity: 88%, blur: 50% (use for alternate cropped header as well)
+Footer background image: opacity: 40%, blur: 50%
+
+Google Map:
+Border: 3px
+Border radius: 50px
+Border-color: #A18C51
+Opacity: 90%
+Width & height: 450px x 450px
