@@ -1,6 +1,6 @@
 Style Guide Reference
 
-Font Styles
+Font Styles:
 
 Header: Segoe UI
 Navigation: Segoe UI - 22px, #FFFFFF, opacity: 88%, semibold, line-spacing: 30, add soft drop shadow
@@ -27,6 +27,7 @@ Main content container background colors: #FFFFFF and #EBEBEB (white and gray fo
 Overall image border radius: 100
 Gallery page image border radius: 80
 
+Footer:
 Footer container background color: #00184A, opacity: 90%
 Footer background image will be added to images as: footerbgimg
 Footer background image: opacity: 40%, blur: 50
