@@ -1,2 +1,105 @@
 /* For Header, Footer, and other global styles */
 /* This includes global fonts, headings, paragraphs, etc  */
+header {
+    font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+} 
+nav {
+    font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 22px;
+    color: #FFF;
+    opacity: 88%;
+    line-height: 30px;
+    filter: drop-shadow(0 0 30px #333);
+}
+nav container {
+    background-color: #72899E;
+    opacity: 40%;
+}
+nav:active {
+    border-radius: 52px;
+    color: #FFF;
+}
+
+
+.slogan {
+    font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 90px;
+    color: #FFF;
+    opacity: 100%;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 27px;
+    letter-spacing: 50px;
+}  
+#reservations {
+    font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    opacity: 100%;
+    font-style: italic;
+    letter-spacing: 200px;
+    line-height: 27px;
+}
+.content {
+    font-family: Bitter, Arial, sans-serif;
+}
+.content-container1 {
+    background-color: #FFF;
+}
+.content-container2 {
+    background-color: #EBEBEB;
+}
+.content h1{
+    font-family: Bitter, Arial, sans-serif;
+    font-size: 60px;
+    color: #A18C51;
+    opacity: 100%;
+    font-style: italic;
+    letter-spacing: 100px;
+    line-height: 72px;
+    filter: drop-shadow(0 0 30px #333);
+}
+.content p {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 20px;
+    color: #464444;
+    opacity: 100%;
+    letter-spacing: 100px;
+    line-height: 40px;
+    filter: drop-shadow(0 0 30px #333);
+}
+
+footer h1 {
+    font-family: Bitter, Arial, sans-serif;
+    font-size: 40px;
+    color: #A18C51;
+    opacity: 100%;
+    font-style: italic;
+    letter-spacing: 100px;
+    line-height: 48px;
+    filter: drop-shadow(0 0 30px #333);
+}
+footer h2, p {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 20px;
+    color: #CCC;
+    opacity: 90%;
+    letter-spacing: 100px;
+    line-height: 40px;
+    filter: drop-shadow(0 0 30px #333);
+}
+/***FOOTER***/
+
+/*** Color Palette:
+
+Main Content:
+Main content container background colors: #FFFFFF and #EBEBEB (white and gray for alternating sections)
+Overall image border radius: 100
+Gallery page image border radius: 80
+
+Footer container background color: #00184A, opacity: 90%
+Footer background image will be added to images as: footerbgimg
+Footer background image: opacity: 40%, blur: 50
+Footer middle column background color: #000438, opacity: 50%
+Google Map: border-color: #A18C51, border-radius: 40, add soft drop shadow
+Copyright container strip background color: #10133B 
+***/
