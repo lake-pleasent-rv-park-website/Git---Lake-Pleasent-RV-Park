@@ -7,10 +7,14 @@
   <title>Lake Pleasant RV Park</title>
   <link rel="stylesheet" type="text/css" href="css/global.css">
   <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="header">
-    <img id="site_logo" src="img/lakepleasantlogo.png">
+  <header>
+    <img alt="logo" class="lake-pleasant-logo" src="img/lakepleasantlogo_transparent.png">
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -19,18 +23,85 @@
         <li><a href="explore.html">Explore</a></li>
       </ul>
     </nav>
-  </div>
+  </header>
   <section id="hero_image">
-    <img class="hero" src="img/headerbgimg.jpg">
+    <img class="hero" src="img/headerbgimgalt.jpg">
     <div class="hero_cover"/>
   </section>
   <section id="content">
-    <h2>Gallery</h2>
     <ul>
-      <li>Drone Footage</li>
-      <li>Photos</li>
-      <li>Other Videos</li>
+      <img src="img/rvpark (1).jpg" class="gallery three_col three_row">
+    </ul>
+    <ul>
+      <img src="img/rvpark (7).jpg" class="gallery two_col one_row">
+      <img src="img/rvpark (8).jpg" class="gallery one_col one_row">
+    </ul>
+    <ul>
+      <img src="img/rvpark (3).jpg" class="gallery one_col two_row">
+      <img src="img/rvpark (5).jpg" class="gallery one_col two_row">
+      <img src="img/rvpark (2).jpg" class="gallery one_col two_row">
+    </ul>
+    <ul>
+      <img src="img/rvpark (11).jpg" class="gallery one_col one_row">
+      <img src="img/rvpark (6).jpg" class="gallery two_col one_row">
+    </ul>
+
+    <ul>
+      <img src="img/rvpark (4).jpg" class="gallery three_col three_row">
+    </ul>
+    <ul>
+      <img src="img/rvpark (9).jpg" class="gallery one_col two_row">
+      <img src="img/rvpark (13).jpg" class="gallery one_col two_row">
+      <img src="img/rvpark (12).jpg" class="gallery one_col two_row">
+    </ul>
+    <ul>
+      <img src="img/rvpark (14).jpg" class="gallery two_col one_row">
+      <img src="img/rvpark (10).jpg" class="gallery one_col one_row">
+    </ul>
+    <ul>
+      <img src="img/rvpark (15).jpg" class="gallery one_col two_row">
+      <img src="img/rvpark (16).jpg" class="gallery one_col two_row">
+      <img src="img/rvpark (17).jpg" class="gallery one_col two_row">
     </ul>
   </section>
+  <footer class="footer">
+    <h1>History</h1>
+    <p>Placeholder text</p>
+    <h1>Contact Us</h1>
+    <p>Placeholder text</p>
+    <p>Placeholder text</p>
+    <h1>Office Hours</h1>
+    <p>Placeholder text</p>
+    <p>Placeholder text</p>
+    <button type="button" class="directions">Get Directions</button>
+    <div class="google-maps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2681.0496084305205!2d-122.21887598437338!3d47.78048607919651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54900e52d7395f6b%3A0x804cf3cf629d1d7c!2sLake+Pleasant+RV+Park!5e0!3m2!1sen!2sus!4v1558571008497!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </footer>
+  <div id="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal_img">
+  </div>
+
+  <script type="text/javascript">
+    // Get the modal
+    var modal = document.getElementById("modal");
+    var modalImg = document.getElementById("modal_img");
+    var captionText = document.getElementById("caption");
+    $('.gallery').click(function () {
+        var img = $(this);
+        modal.style.display = "block";
+        modalImg.src = img.attr('src');
+    });
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+  </script>
+
 </body>
 </html>
