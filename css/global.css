@@ -63,8 +63,8 @@ nav:active {
     font-size: 20px;
     color: #464444;
     opacity: 100%;
-    letter-spacing: 100;
-    line-height: 40;
+    letter-spacing: 100%;
+    line-height: 40%;
     filter: drop-shadow(0 0 30px #333);
 }
 
