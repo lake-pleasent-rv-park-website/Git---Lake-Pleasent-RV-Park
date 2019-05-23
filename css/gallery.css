@@ -2,8 +2,10 @@
 
 body {
 	margin: 0;
+	width: 100%;
 }
-.header {
+
+header {
 	z-index: 2;
 	position: absolute;
 	top: 0px;
@@ -14,7 +16,7 @@ body {
     justify-content: space-between;
 }
 
-#site_logo {
+.lake-pleasant-logo {
 	height: 100%;
 	left: 0px;
 	display: inline-block;
@@ -37,8 +39,8 @@ nav li {
 }
 
 #hero_image {
-	width: 1900px;
-	height: 900px;
+	width: 100%;
+	height: 600px;
 	top: 0px;
 }
 
@@ -46,11 +48,124 @@ nav li {
 	z-index: 1;
 	position: absolute;
 	top: 0px;
-	height: 910px;
-	width: 1600px;
+	height: 600px;
+	width: 100%;
 	background-color:rgba(255,255,255,0.3);
 }
 .hero {
 	z-index: 0;
 	top: 0px;
+	height: 600px;
+	width: 100%;
 }
+
+#content {
+	width: 100%;
+}
+
+#content ul {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: table;
+}
+
+#content img {
+	border-radius: 30px;
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	object-fit: cover;
+	object-position: center left;
+}
+
+#content img:hover {
+	opacity: 0.7;
+}
+
+.one_row {
+	height:318px;
+}
+.two_row {
+	height:373px;
+}
+.three_row {
+	height:10%;
+}
+.one_col {
+	width: 27.15%;
+}
+.two_col {
+	width: 60.58%;
+}
+.three_col {
+	width: 94%;
+}
+
+/* The Modal (background) */
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 30px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* End Modal */
