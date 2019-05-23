@@ -8,7 +8,7 @@ nav {
     font-size: 22px;
     color: #FFF;
     opacity: 88%;
-    line-height: 30px;
+    line-height: 30;
     filter: drop-shadow(0 0 30px #333);
 }
 nav container {
@@ -28,16 +28,16 @@ nav:active {
     opacity: 100%;
     font-style: italic;
     font-weight: bold;
-    line-height: 27px;
-    letter-spacing: 50px;
+    line-height: 27;
+    letter-spacing: 50;
 }  
 #reservations {
     font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 20px;
     opacity: 100%;
     font-style: italic;
-    letter-spacing: 200px;
-    line-height: 27px;
+    letter-spacing: 200;
+    line-height: 27;
 }
 .content {
     font-family: Bitter, Arial, sans-serif;
@@ -54,8 +54,8 @@ nav:active {
     color: #A18C51;
     opacity: 100%;
     font-style: italic;
-    letter-spacing: 100px;
-    line-height: 72px;
+    letter-spacing: 100;
+    line-height: 72;
     filter: drop-shadow(0 0 30px #333);
 }
 .content p {
@@ -63,8 +63,8 @@ nav:active {
     font-size: 20px;
     color: #464444;
     opacity: 100%;
-    letter-spacing: 100px;
-    line-height: 40px;
+    letter-spacing: 100;
+    line-height: 40;
     filter: drop-shadow(0 0 30px #333);
 }
 
@@ -74,8 +74,8 @@ footer h1 {
     color: #A18C51;
     opacity: 100%;
     font-style: italic;
-    letter-spacing: 100px;
-    line-height: 48px;
+    letter-spacing: 100;
+    line-height: 48;
     filter: drop-shadow(0 0 30px #333);
 }
 footer h2, p {
@@ -83,8 +83,8 @@ footer h2, p {
     font-size: 20px;
     color: #CCC;
     opacity: 90%;
-    letter-spacing: 100px;
-    line-height: 40px;
+    letter-spacing: 100;
+    line-height: 40;
     filter: drop-shadow(0 0 30px #333);
 }
 /***FOOTER***/
