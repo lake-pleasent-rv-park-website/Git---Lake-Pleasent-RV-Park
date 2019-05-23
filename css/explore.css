@@ -7,7 +7,7 @@ body {
 	z-index: 2;
 	position: absolute;
 	top: 0px;
-	height: 25px;
+	height: 45px;
 	width: 100%;
 	background-color: rgb(255,255,255,0.2);
 	display: flex;
@@ -15,7 +15,7 @@ body {
 }
 
 #site_logo {
-	height: 200%;
+	height: 175%;
 	left: 0px;
 	display: inline-block;
     
@@ -24,7 +24,7 @@ body {
 nav {
 	display: table;
 	margin: auto 0;
-	width: 652px;
+	width: 653px;
 	z-index: 3;
 }
 
@@ -67,4 +67,13 @@ body, html {
     opacity: 100%;
     font-style: italic;
     color: #F00;
+}
+div .article1 { 
+    border-style: hidden;
+    background-color: #FFF;    
+}
+div .article2 {
+    border-style: hidden;
+    background-color: #EBEBEB;
+    
 }
