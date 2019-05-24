@@ -13,59 +13,71 @@ header {
 .header-content {
 	margin-top: 70px;
 }
-/* Top left logo */
 .lake-pleasant-logo {
 	height: 100%;
 	left: 0px;
 	display: inline-block;
 }
+/***CONTENT CONTAINERS***/
+.container2 {
+  background-color: lightgrey;
+  width: auto;
+  border: 15px solid lightgrey;
+  padding: 50px;
+  margin: 0;
+  text-align: center
+}
+.container1 {
+  background-color: white;
+  width: auto;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 0;
+  text-align: center
+}
 /***IMAGES CSS***/
 .rcorners1 {
   border-radius: 45px;
-  background-position: left top;
+  background-position: center;
   background-repeat: repeat;
   padding: 20px;
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 200px;
   float: left;
 }
 .rcorners2 {
   border-radius: 45px;
-  background-position: left top;
-  background-repeat: repeat;
   padding: 20px;
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 200px;
   float: right;
 }
-
 /***RESPONSIVE IMAGES***/
 img {
   max-width: 100%;
   height: auto;
 }
-/***CLICKABLE IMAGE TEXT***/
-.container {
-  position: relative;
-}
-
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
-}
+/***PAGE SPECIFIC LINKS***/
 /* Overrides global css link styles for content */
-div article a {
+.container2 a {
   color: blue;
   text-decoration: none;
 }
-div article a:visited {
+.container2 a:visited {
     color: violet;
 }
-/* No Changes to global link & navigation hover colors */
-div article a:hover, .nav-active:hover {
-  border-color: #1B2067;
+.container2 a:hover, .nav-active:hover {
+  border-color: #FFF;
+  color:  #1B2067;
+}
+.container1 a {
+  color: blue;
+  text-decoration: none;
+}
+.container1 a:visited {
+    color: violet;
+}
+.container1 a:hover, .nav-active:hover {
+  border-color: #FFF;
   color:  #1B2067;
 }
