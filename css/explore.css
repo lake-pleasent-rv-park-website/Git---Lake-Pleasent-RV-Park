@@ -1,4 +1,26 @@
 /* For explore specific styles */
+<<<<<<< HEAD
+=======
+/***HEADER***/
+body {
+	margin: 0;
+	width: 100%;
+}
+/* Added height specificity for page header */
+header {
+	height: 80%;
+	background-position: center;
+}
+/* Added margin for readability */
+.header-content {
+	margin-top: 70px;
+}
+.lake-pleasant-logo {
+	height: 100%;
+	left: 0px;
+	display: inline-block;
+}
+>>>>>>> parent of 0fd737a... Revert "Merge branch 'master' of https://github.com/lake-pleasent-rv-park-website/Git---Lake-Pleasent-RV-Park"
 /***CONTENT CONTAINERS***/
 .container2 {
   background-color: lightgrey;
@@ -37,9 +59,12 @@
 img {
   max-width: 100%;
   height: auto;
+	vertical-align: middle;
+	border-style: none;
 }
 /***PAGE SPECIFIC LINKS***/
 /* Overrides global css link styles for content */
+/* Container 2 */
 .container2 a {
   color: blue;
   text-decoration: none;
@@ -47,10 +72,11 @@ img {
 .container2 a:visited {
     color: violet;
 }
-.container2 a:hover, .nav-active:hover {
+.container2 a:hover {
   border-color: #FFF;
   color:  #1B2067;
 }
+/* COntainer 1 */
 .container1 a {
   color: blue;
   text-decoration: none;
@@ -58,7 +84,7 @@ img {
 .container1 a:visited {
     color: violet;
 }
-.container1 a:hover, .nav-active:hover {
+.container1 a:hover {
   border-color: #FFF;
   color:  #1B2067;
 }
