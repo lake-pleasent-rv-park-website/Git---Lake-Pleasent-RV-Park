@@ -13,18 +13,21 @@
         crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
+<header>
+  <div class="nav-strip">
     <img alt="logo" class="lake-pleasant-logo" src="img/lakepleasantlogo_transparent.png">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="parklife.html">Park Life</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="explore.html">Explore</a></li>
-      </ul>
-    </nav>
-  </header>
-    <img class="hero" src="img/headerbgimgalt.jpg">
+      <nav>
+        <a href="index.html" class="nav-links">Home</a>
+        <a href="parklife.html" class="nav-links">Park Life</a>
+        <a href="gallery.html" class="nav-links nav-active">Gallery</a>
+        <a href="explore.html" class="nav-links">Explore</a>
+      </nav>
+  </div>
+  <div class="header-content">
+    <h1>Your Destination <br>Resort.</h1>
+    <h2>For Reservations Call (555) 555-5555</h2>
+  </div>
+</header>
   <section id="content">
     <ul>
       <img src="img/rvpark (1).jpg" alt="rv park 1" class="gallery three_col three_row">
@@ -80,7 +83,7 @@
     var span = document.getElementsByClassName("close")[0];
 
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function() { 
+    span.onclick = function() {
       modal.style.display = "none";
     }
   </script>
