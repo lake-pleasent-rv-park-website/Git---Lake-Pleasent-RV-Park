@@ -5,6 +5,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -17,14 +18,15 @@ body, html {
   height: 100%;
   margin: 0;
 }
+
 /* Header styles */
 header {
   font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  color: white;
   background-image: url("../img/headerbgimg.jpg");
   position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
   height: 100%;
 }
 
@@ -35,26 +37,38 @@ header h1 {
 }
 
 header h2 {
+  color: #1B2067;
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
 }
 
 /* Navigation Styles */
-nav {
+  nav, nav::before, nav::after {
+    display: inline-block;
+    color: white;
     font-size: 22px;
-    line-height: 30px;
     filter: drop-shadow(0 3 6px #333);
+    float: right;
 }
-nav container {
-    background-color: #72899E;
-    opacity: 40%;
+
+.nav-logo {
+  width: 100px;
+  height: 70px;
+}
+
+.nav-strip {
+    background: rgba(114, 137, 158, 0.3);
 }
 nav:active {
     border-radius: 52px;
     color: #FFF;
 }
 
+.logo {
+  width: 322px;
+  height: 206px;
+}
 .slogan {
     font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 90px;
