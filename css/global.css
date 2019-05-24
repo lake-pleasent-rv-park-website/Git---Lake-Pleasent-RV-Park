@@ -30,10 +30,18 @@ header {
   height: 100%;
 }
 
+.header-content {
+  float: left;
+  text-align: center;
+  margin: 50px 50px;
+}
+
 header h1 {
-  font-size: 90px;
+  font-size: 70px;
   font-weight: bold;
   font-style: italic;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px #696969;
 }
 
 header h2 {
@@ -41,14 +49,17 @@ header h2 {
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
+  letter-spacing: 3px;
 }
 
-/* Navigation Styles */
+/* Navigation & link Styles */
   nav {
     display: inline-block;
     color: white;
-    font-size: 22px;
-    filter: drop-shadow(0 3 6px #333);
+    font-size: 18px;
+    font-weight: 	600;
+    letter-spacing: 2px;
+    padding: 30px;
     float: right;
 }
 
@@ -57,13 +68,14 @@ a {
   text-decoration: none;
 }
 
-.nav-logo {
-  width: 100px;
-  height: 70px;
+.nav-links {
+  opacity: 0.9;
+  margin: 50px;
 }
 
 .nav-strip {
     background: rgba(114, 137, 158, 0.3);
+    height: 90px;
 }
 
 .logo {
@@ -93,14 +105,14 @@ a {
     color: #A18C51;
     opacity: 1;
     font-style: italic;
-    filter: drop-shadow(0 0 30px #333);
+    text-shadow: 2px 2px 4px #696969;
 }
 .content p {
     font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
     color: #464444;
     opacity: 1;
-    filter: drop-shadow(0 0 30px #333);
+    text-shadow: 2px 2px 4px #696969;
 }
 
 footer h1 {
@@ -109,14 +121,14 @@ footer h1 {
     color: #A18C51;
     opacity: 100%;
     font-style: italic;
-    filter: drop-shadow(0 0 30px #333);
+    text-shadow: 2px 2px 4px #696969;
 }
 footer h2, p {
     font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
     color: #CCC;
     opacity: 90%;
-    filter: drop-shadow(0 0 30px #333);
+    text-shadow: 2px 2px 4px #696969;
 }
 /***FOOTER***/
 
