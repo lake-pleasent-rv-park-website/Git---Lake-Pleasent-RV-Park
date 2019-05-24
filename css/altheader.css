@@ -1,4 +1,5 @@
 /***HEADER***/
+
 body {
 	margin: 0;
 	width: 100%;
@@ -12,6 +13,7 @@ header {
 .header-content {
 	margin-top: 70px;
 }
+/* Left top logo */
 .lake-pleasant-logo {
 	height: 100%;
 	left: 0px;
