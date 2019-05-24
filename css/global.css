@@ -87,46 +87,76 @@ a:hover, .nav-active:hover {
   height: 206px;
 }
 
-.content {
-    font-family: "Bitter", Arial, sans-serif;
-}
 .content-container1 {
     background-color: #FFFFFF;
 }
 .content-container2 {
     background-color: #EBEBEB;
 }
-.content h1{
+section h1{
     font-family: "Bitter", Arial, sans-serif;
     font-size: 60px;
     color: #A18C51;
     opacity: 1;
     font-style: italic;
-    text-shadow: 2px 2px 4px #696969;
+    text-shadow: 1px 2px 6px rgba(32,32,32, 0.2);
 }
-.content p {
+p {
     font-family: "Raleway", Arial, sans-serif;
     font-size: 20px;
     color: #464444;
     opacity: 1;
-    text-shadow: 2px 2px 4px #696969;
+    text-shadow: 1px 2px 6px rgba(32,32,32, 0.2);
 }
-
+/* Footer Styles */
 footer h1 {
     font-family: "Bitter", Arial, sans-serif;
     font-size: 40px;
     color: #A18C51;
-    opacity: 100%;
     font-style: italic;
-    text-shadow: 2px 2px 4px #696969;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 6px rgba(32,32,32, 0.5);
 }
-footer h2, p {
+/* More footer styles */
+footer h2, footer p {
     font-family: "Raleway", Arial, sans-serif;
     font-size: 20px;
-    color: #CCC;
-    opacity: 90%;
-    text-shadow: 2px 2px 4px #696969;
+    color: #CCCCCC;
+    text-shadow: 2px 2px 6px rgb(32,32,32, 0.5);
+    width: 400px;
 }
+/* Footer background image */
+.footer {
+  background-image: url("../img/footerbgimgalt2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/* Footer background color overlay */
+.footerbg {
+  background-color: rgba(0,24,74, 0.6);
+}
+/* Get Directions Button */
+.footer-button {
+  font-family: "Bitter", Arial, sans-serif;
+  font-size: 24px;
+  color: #A18C51;
+  background-color: transparent;
+  border: 2px solid #A18C51;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+/* Footer columns */
+.about, .contact, .map {
+  display: inline-block;
+  margin: 0 3%;
+}
+/* Contact column background */
+.contact {
+  background-color: rgba(0,4,56, 0.3);
+  padding: 30px;
+}
+
 /***FOOTER***/
 
 /*** Color Palette:
