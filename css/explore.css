@@ -55,6 +55,7 @@ body, html {
     font-style: italic;
     color: #F00;
 }
+/***IMAGES CSS***/
 .rcorners1 {
   border-radius: 45px;  
   background-position: left top;
@@ -73,41 +74,34 @@ body, html {
   height: 150px;
   float: right;
 }
-/***TOOLTIP FOR CLICKABLE IMAGES***/
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-/***IMAGES CSS***/
 /***RESPONSIVE IMAGES***/
 img {
   max-width: 100%;
   height: auto;
 }
 /***CLICKABLE IMAGE TEXT***/
+.container {
+  position: relative;
+}
+
 .center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
+}
+/* Overrides global css link styles for content */
+div article a {
+  color: blue;
+  text-decoration: none;
+}
+div article a:visited {
+    color: violet;
+}
+/* Changes link & navigation hover colors */
+div article a:hover, .nav-active:hover {
+  border-color: #1B2067;
+  color:  #1B2067;
 }
