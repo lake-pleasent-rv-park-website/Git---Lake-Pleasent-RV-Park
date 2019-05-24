@@ -1,8 +1,6 @@
 /* For explore specific styles */
 /***HEADER***/
-body {
-	margin: 0;
-}
+
 .header {
 	z-index: 2;
 	position: absolute;
@@ -15,21 +13,10 @@ body {
 }
 
 #site_logo {
-	height: 175%;
+	height: 150%;
 	left: 0px;
 	display: inline-block;
     
-}
-
-nav {
-	display: table;
-	margin: auto 0;
-	width: 653px;
-	z-index: 3;
-}
-
-nav ul {
-	list-style: none;
 }
 
 nav li {
@@ -68,6 +55,59 @@ body, html {
     font-style: italic;
     color: #F00;
 }
-.content-orient {
+.rcorners1 {
+  border-radius: 45px;  
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  float: left;
+}
+.rcorners2 {
+  border-radius: 45px;  
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  float: right;
+}
+/***TOOLTIP FOR CLICKABLE IMAGES***/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/***IMAGES CSS***/
+/***RESPONSIVE IMAGES***/
+img {
+  max-width: 100%;
+  height: auto;
+}
+/***CLICKABLE IMAGE TEXT***/
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
 }
