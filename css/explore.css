@@ -37,12 +37,9 @@
 img {
   max-width: 100%;
   height: auto;
-	vertical-align: middle;
-	border-style: none;
 }
 /***PAGE SPECIFIC LINKS***/
 /* Overrides global css link styles for content */
-/* Container 2 */
 .container2 a {
   color: blue;
   text-decoration: none;
@@ -50,11 +47,10 @@ img {
 .container2 a:visited {
     color: violet;
 }
-.container2 a:hover {
+.container2 a:hover, .nav-active:hover {
   border-color: #FFF;
   color:  #1B2067;
 }
-/* COntainer 1 */
 .container1 a {
   color: blue;
   text-decoration: none;
@@ -62,7 +58,7 @@ img {
 .container1 a:visited {
     color: violet;
 }
-.container1 a:hover {
+.container1 a:hover, .nav-active:hover {
   border-color: #FFF;
   color:  #1B2067;
 }

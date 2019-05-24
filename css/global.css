@@ -19,6 +19,7 @@ header {
   color: white;
   font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   background-image: url("../img/headerbgimg.jpg");
+  position: center;
   background-size: cover;
   height: 110%;
 }
@@ -51,7 +52,7 @@ header h2 {
     font-weight: 	600;
     letter-spacing: 2px;
     float: right;
-    margin: 20px 0px 0px;
+    padding: 20px 0px 0px;
 }
 /* Gives navigation some spacing between links */
 .nav-links {
