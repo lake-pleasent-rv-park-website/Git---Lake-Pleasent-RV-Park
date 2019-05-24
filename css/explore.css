@@ -2,7 +2,7 @@
 /***HEADER***/
 body {
 	margin: 0;
-	width: 100%;    
+	width: 100%;
 }
 /* Added height specificity for page header */
 header {
@@ -20,7 +20,11 @@ header {
 }
 /***CONTENT CONTAINERS***/
 .container2 {
+<<<<<<< HEAD
   background-color: lightgrey;    
+=======
+  background-color: lightgrey;
+>>>>>>> AltBranch
   width: auto;
   border: 15px solid lightgrey;
   padding: 50px;
@@ -28,7 +32,11 @@ header {
   text-align: center
 }
 .container1 {
+<<<<<<< HEAD
   background-color: white;    
+=======
+  background-color: white;
+>>>>>>> AltBranch
   width: auto;
   border: 15px solid white;
   padding: 50px;
@@ -37,17 +45,29 @@ header {
 }
 /***IMAGES CSS***/
 .rcorners1 {
+<<<<<<< HEAD
   border-radius: 45px;  
   background-position: center;
   background-repeat: repeat;
   padding: 20px; 
+=======
+  border-radius: 45px;
+  background-position: center;
+  background-repeat: repeat;
+  padding: 20px;
+>>>>>>> AltBranch
   width: 300px;
   height: 200px;
   float: left;
 }
 .rcorners2 {
+<<<<<<< HEAD
   border-radius: 45px;    
   padding: 20px; 
+=======
+  border-radius: 45px;
+  padding: 20px;
+>>>>>>> AltBranch
   width: 300px;
   height: 200px;
   float: right;
@@ -62,6 +82,7 @@ img {
 .container2 a {
   color: blue;
   text-decoration: none;
+<<<<<<< HEAD
 }
 .container2 a:visited {
     color: violet;
@@ -70,6 +91,16 @@ img {
   border-color: #FFF;
   color:  #1B2067;
 }
+=======
+}
+.container2 a:visited {
+    color: violet;
+}
+.container2 a:hover, .nav-active:hover {
+  border-color: #FFF;
+  color:  #1B2067;
+}
+>>>>>>> AltBranch
 .container1 a {
   color: blue;
   text-decoration: none;
