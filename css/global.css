@@ -1,41 +1,35 @@
 /* For Header, Footer, font, background color, and other global styles */
-/* This includes global fonts, headings, paragraphs, etc  */
+/* That includes global fonts, headings, paragraphs, etc  */
 
 /* Box sizing: border-box global reset */
 html {
   box-sizing: border-box;
 }
-
+/* More box sizing... */
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-body {
+/* And more... */
+html, body {
+  height: 100%;
   margin: 0 auto;
 }
-
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
 /* Header styles */
 header {
-  font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   color: white;
+  font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   background-image: url("../img/headerbgimg.jpg");
   position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 110%;
 }
-
+/* Container for all header content */
 .header-content {
   float: left;
   text-align: center;
   margin: 50px 50px;
 }
-
+/* Big white header slogan */
 header h1 {
   font-size: 70px;
   font-weight: bold;
@@ -43,55 +37,58 @@ header h1 {
   letter-spacing: 3px;
   text-shadow: 2px 2px 4px #696969;
 }
-
+/* Call-to-action - reservations phone number */
 header h2 {
   color: #1B2067;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
   font-style: italic;
   letter-spacing: 3px;
 }
-
-/* Navigation & link Styles */
+/* Navigation styles */
   nav {
     display: inline-block;
-    color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 	600;
     letter-spacing: 2px;
-    padding: 30px;
     float: right;
+    padding: 20px 0px 0px;
 }
-
+/* Gives navigation some spacing between links */
+.nav-links {
+  opacity: 0.9;
+  margin: 0px 40px;
+}
+/* Gives border around active navigation link */
+.nav-active {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+/* Overrides default link style */
 a {
   color: white;
   text-decoration: none;
 }
-
-.nav-links {
-  opacity: 0.9;
-  margin: 50px;
+/* Changes link & navigation hover colors */
+a:hover, .nav-active:hover {
+  border-color: #1B2067;
+  color:  #1B2067;
 }
-
+/* Creates navigation container strip */
 .nav-strip {
     background: rgba(114, 137, 158, 0.3);
     height: 90px;
 }
-
+/* Sets logo size */
 .logo {
   width: 322px;
   height: 206px;
 }
 
-#reservations {
-    font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    font-size: 20px;
-    opacity: 100%;
-    font-style: italic;
-    letter-spacing: 200%;
-}
 .content {
-    font-family: Bitter, Arial, sans-serif;
+    font-family: "Bitter", Arial, sans-serif;
 }
 .content-container1 {
     background-color: #FFFFFF;
@@ -100,7 +97,7 @@ a {
     background-color: #EBEBEB;
 }
 .content h1{
-    font-family: Bitter, Arial, sans-serif;
+    font-family: "Bitter", Arial, sans-serif;
     font-size: 60px;
     color: #A18C51;
     opacity: 1;
@@ -108,7 +105,7 @@ a {
     text-shadow: 2px 2px 4px #696969;
 }
 .content p {
-    font-family: Raleway, Arial, sans-serif;
+    font-family: "Raleway", Arial, sans-serif;
     font-size: 20px;
     color: #464444;
     opacity: 1;
@@ -116,7 +113,7 @@ a {
 }
 
 footer h1 {
-    font-family: Bitter, Arial, sans-serif;
+    font-family: "Bitter", Arial, sans-serif;
     font-size: 40px;
     color: #A18C51;
     opacity: 100%;
@@ -124,7 +121,7 @@ footer h1 {
     text-shadow: 2px 2px 4px #696969;
 }
 footer h2, p {
-    font-family: Raleway, Arial, sans-serif;
+    font-family: "Raleway", Arial, sans-serif;
     font-size: 20px;
     color: #CCC;
     opacity: 90%;
