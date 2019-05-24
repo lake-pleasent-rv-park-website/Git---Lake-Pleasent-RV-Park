@@ -1,60 +1,26 @@
 /* For explore specific styles */
 /***HEADER***/
-
-.header {
-	z-index: 2;
-	position: absolute;
-	top: 0px;
-	height: 45px;
-	width: 100%;
-	background-color: rgb(255,255,255,0.2);
-	display: flex;
-    justify-content: space-between;
+body {
+	margin: 0;
+	width: 100%;    
+}
+/* Added height specificity for page header */
+header {
+	
+	background-position: center;
+}
+/* Added margin for readability */
+.header-content {
+	margin-top: 70px;
 }
 
-#site_logo {
-	height: 150%;
+.lake-pleasant-logo {
+	height: 100%;
 	left: 0px;
 	display: inline-block;
-    
 }
 
-nav li {
-	width: 150px;
-	display: inline-block;
-}
 
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.hero-image {
-  background-image: url("../img/explore-header-banner.jpg");
-  height: 50%;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-    font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;    
-    text-align: center;
-    position: absolute;
-    top: 65%;
-    left: 15%;
-    transform: translate(-50%, -50%);    
-    color: #FFF;
-}
-.hero-text p {
-    font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    font-size: 18px;
-    opacity: 100%;
-    font-style: italic;
-    color: #F00;
-}
 /***IMAGES CSS***/
 .rcorners1 {
   border-radius: 45px;  
@@ -100,7 +66,7 @@ div article a {
 div article a:visited {
     color: violet;
 }
-/* Changes link & navigation hover colors */
+/* No Changes to global link & navigation hover colors */
 div article a:hover, .nav-active:hover {
   border-color: #1B2067;
   color:  #1B2067;
