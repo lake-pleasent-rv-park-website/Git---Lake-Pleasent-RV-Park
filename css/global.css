@@ -1,14 +1,50 @@
-/* For Header, Footer, and other global styles */
+/* For Header, Footer, font, background color, and other global styles */
 /* This includes global fonts, headings, paragraphs, etc  */
+
+/* Box sizing: border-box global reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+/* Header styles */
 header {
-    font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-	background-color: rgba(255,255,255,.8);
-} 
+  font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  background-image: url("../img/headerbgimg.jpg");
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+}
+
+header h1 {
+  font-size: 90px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Navigation Styles */
 nav {
-    font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 22px;
     line-height: 30px;
-    filter: drop-shadow(0 0 30px #333);
+    filter: drop-shadow(0 3 6px #333);
 }
 nav container {
     background-color: #72899E;
@@ -28,7 +64,7 @@ nav:active {
     font-weight: bold;
     line-height: 27px;
     letter-spacing: 50%;
-}  
+}
 #reservations {
     font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 20px;
@@ -41,7 +77,7 @@ nav:active {
     font-family: Bitter, Arial, sans-serif;
 }
 .content-container1 {
-    background-color: #FFF;
+    background-color: #FFFFFF;
 }
 .content-container2 {
     background-color: #EBEBEB;
@@ -52,7 +88,6 @@ nav:active {
     color: #A18C51;
     opacity: 1;
     font-style: italic;
-    letter-spacing: 100%;
     line-height: 72px;
     filter: drop-shadow(0 0 30px #333);
 }
@@ -61,7 +96,6 @@ nav:active {
     font-size: 20px;
     color: #464444;
     opacity: 1;
-    letter-spacing: 100%;
     line-height: 40px;
     filter: drop-shadow(0 0 30px #333);
 }
@@ -72,7 +106,6 @@ footer h1 {
     color: #A18C51;
     opacity: 100%;
     font-style: italic;
-    letter-spacing: 100;
     line-height: 48;
     filter: drop-shadow(0 0 30px #333);
 }
@@ -81,7 +114,6 @@ footer h2, p {
     font-size: 20px;
     color: #CCC;
     opacity: 90%;
-    letter-spacing: 100;
     line-height: 40;
     filter: drop-shadow(0 0 30px #333);
 }
@@ -99,5 +131,5 @@ Footer background image will be added to images as: footerbgimg
 Footer background image: opacity: 40%, blur: 50
 Footer middle column background color: #000438, opacity: 50%
 Google Map: border-color: #A18C51, border-radius: 40, add soft drop shadow
-Copyright container strip background color: #10133B 
+Copyright container strip background color: #10133B
 ***/
