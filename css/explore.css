@@ -68,12 +68,6 @@ body, html {
     font-style: italic;
     color: #F00;
 }
-div .article1 { 
-    border-style: hidden;
-    background-color: #FFF;    
-}
-div .article2 {
-    border-style: hidden;
-    background-color: #EBEBEB;
-    
+.content-orient {
+
 }
