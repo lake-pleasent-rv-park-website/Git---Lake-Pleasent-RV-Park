@@ -145,18 +145,24 @@ footer h2, footer p {
   border: 2px solid #A18C51;
   border-radius: 50px;
   padding: 10px 20px;
+  cursor: pointer;
 }
 /* Footer columns */
-.about, .contact, .map {
+.about, .map {
   display: inline-block;
   margin: 0 3%;
 }
 /* Contact column background */
 .contact {
+  display: inline-block;
   background-color: rgba(0,4,56, 0.3);
   padding: 30px;
+  width: 480px;
 }
-
+.google-map {
+  border: 4px solid #A18C51;
+  border-radius: 40px;
+}
 /***FOOTER***/
 
 /*** Color Palette:
