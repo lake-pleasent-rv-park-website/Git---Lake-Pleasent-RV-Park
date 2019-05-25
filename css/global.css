@@ -147,9 +147,12 @@ footer h2, footer p {
   cursor: pointer;
 }
 /* Footer columns */
-.about, .map {
+.about, .contact, .map-wrap {
   display: inline-block;
-  margin: 0 2%;
+}
+
+.about, .map-wrap {
+  margin-left: 50px;
 }
 
 /* Contact column background */
