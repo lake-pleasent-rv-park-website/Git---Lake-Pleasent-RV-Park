@@ -1,0 +1,21 @@
+/***HEADER***/
+
+body {
+	margin: 0;
+	width: 100%;
+}
+/* Added height specificity for page header */
+header {
+	height: 80%;
+	background-position: center;
+}
+/* Added margin for readability */
+.header-content {
+	margin-top: 70px;
+}
+/* Left top logo */
+.lake-pleasant-logo {
+	height: 100%;
+	left: 0px;
+	display: inline-block;
+}

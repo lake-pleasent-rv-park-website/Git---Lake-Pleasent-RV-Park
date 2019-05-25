@@ -1,24 +1,6 @@
 /* For explore specific styles */
-/***HEADER***/
-body {
-	margin: 0;
-	width: 100%;    
-}
-/* Added height specificity for page header */
-header {
-	height: 80%;
-	background-position: center;
-}
-/* Added margin for readability */
-.header-content {
-	margin-top: 70px;
-}
-.lake-pleasant-logo {
-	height: 100%;
-	left: 0px;
-	display: inline-block;
-}
 /***CONTENT CONTAINERS***/
+
 .Box1 {
   background-color: #DCDCDC;
   display: inline-block;
@@ -42,12 +24,12 @@ h1.title {
   font-style: italic;
   text-shadow: 1px 2px 6px rgba(32, 32, 32, 0.2);
   position: relative;
+  text-align: center;
 }
-
 h1.title1 {
   vertical-align: middle;
   display: inline-block;
-  padding-left: 21%;
+  padding-left: 20%;
   font-family: "Bitter", Arial, sans-serif;
   font-size: 4.5vw;
   color: #A18C51;
@@ -55,6 +37,7 @@ h1.title1 {
   font-style: italic;
   text-shadow: 1px 2px 6px rgba(32, 32, 32, 0.2);
   position: relative;
+  text-align: center;    
 }
 
 h1.title2 {
@@ -68,6 +51,7 @@ h1.title2 {
   font-style: italic;
   text-shadow: 1px 2px 6px rgba(32, 32, 32, 0.2);
   position: relative;
+  text-align: center;    
 }
 p.bodytext {
   vertical-align: middle;
@@ -99,28 +83,27 @@ p.bodytext1 {
 
 /***IMAGES CSS***/
 .rcorners1 {
-  border-radius: 45px;  
-  background-position: center;
-  background-repeat: repeat;
-  padding: 20px; 
+  border-radius: 45px;    
+  padding: 20px;
   width: 300px;
   height: 200px;
   float: left;
 }
 .rcorners2 {
-  border-radius: 45px;    
-  padding: 20px; 
+  border-radius: 45px;
+  padding: 20px;
   width: 300px;
   height: 200px;
   float: right;
 }
 /***RESPONSIVE IMAGES***/
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;	
 }
 /***PAGE SPECIFIC LINKS***/
 /* Overrides global css link styles for content */
+
 .Box2 a {
   color: blue;
   text-decoration: none;
@@ -132,6 +115,11 @@ img {
   border-color: #FFF;
   color:  #1B2067;
 }
+.Box2 a:hover {
+  border-color: #FFF;
+  color:  #1B2067;
+}
+/* COntainer 1 */
 .Box1 a {
   color: blue;
   text-decoration: none;
@@ -139,7 +127,5 @@ img {
 .Box1 a:visited {
     color: violet;
 }
-.Box1 a:hover, .nav-active:hover {
-  border-color: #FFF;
-  color:  #1B2067;
-}
+
+
