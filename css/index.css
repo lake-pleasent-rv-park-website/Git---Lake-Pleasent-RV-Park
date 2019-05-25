@@ -1,5 +1,24 @@
 /* For index specific styles */
 
+.favspot-wrap {
+  text-align: center;
+  margin: 50px;
+}
+/* Need to place over image, fix later */
+/*.favspot h1 {
+  text-align: center;
+} */
+.trails {
+  width: 1208px;
+
+}
+
+.spots {
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+}
+
 /* Amenities Styles */
 .amenities {
   text-align: center;
