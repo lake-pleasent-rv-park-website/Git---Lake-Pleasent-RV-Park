@@ -1,1 +1,94 @@
 /* For index specific styles */
+
+/* Amenities Styles */
+.amenities {
+  text-align: center;
+  background-color: rgb(235,235,235);
+}
+/* amenities img width */
+.amenitiesimg {
+  width: 80%;
+}
+/* Testimonials styles */
+.reviews {
+  position: relative;
+  background-image: url("../img/footerbgimgalt2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/*Testimonials background color */
+.reviewsbg {
+  background-color: rgba(118,155,62, 0.7);
+  padding: 20px 0px;
+}
+/* Testimonials heading */
+.slidetitle {
+text-align: center;
+position: relative;
+margin: 0px 10px;
+color: #00184A;
+font-size: 40px;
+}
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 30px 200px;
+  text-align: center;
+}
+/* Testimonials content wrapper */
+.slide-wrap {
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 10px 22px;
+  color: #A18C51;
+  font-weight: bold;
+  font-size: 30px;
+  user-select: none;
+  background-color: rgba(0,0,0,0.4);
+}
+/* prev button styles */
+.prev {
+  position: absolute;
+  left: 1%;
+  border-radius: 50px;
+}
+/* next button styles */
+.next {
+  position: absolute;
+  right: 1%;
+  border-radius: 50px;
+}
+/* prev, next hover styles */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+}
+/* Testimonials content */
+.reviews p {
+  font-family: "Bitter", Times, serif;
+  color: #A18C51;
+  font-weight: 500;
+}
+/*Testimonial author styles */
+.author {
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 500;
+  color: #00184A;
+  font-style: italic;
+}
+/* For smaller devices */
+@media screen and (max-width: 700px) {
+.mySlides {
+  padding: 25px 10%;
+  margin: 1%;
+  font-size: 18px;
+    }
+}
