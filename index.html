@@ -30,21 +30,51 @@
     <p>Rainforest</p>
     <p>Puget Sound</p>
   </section>
-  <section class="what-we-offer">
-    <h1>What We Offer</h1>
-    <h2>Our Amenities</h2>
-    <ul>
-      <li>Hiking Trails</li>
-      <li>Fishing Spots</li>
-      <li>Wifi and Cable</li>
-      <li>Wildlife Habitat</li>
-      <li>Full Hookups</li>
-      <li>And More...</li>
-    </ul>
+  <section class="amenities">
+    <a href="parklife.html"><img src="img/amenities.png" alt="amenities" class="amenitiesimg"></a>
   </section>
-  <section class="reviews">
-    <h1>Testimonials<h1>
-  </section>
+    <section class="reviews">
+      <section class="reviewsbg">
+      <h1 class="slidetitle">Testimonials</h1>
+      <div class="mySlides">
+        <div class="slide-wrap">
+          <p>Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text</p>
+          <span class="author">- John Keats</span>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="slide-wrap">
+        <p>Placeholder text Placeholder text Placeholder text Placeholder text
+          Placeholder text Placeholder text Placeholder text Placeholder text
+          Placeholder text Placeholder text Placeholder text Placeholder text
+          Placeholder text Placeholder text Placeholder text Placeholder text
+          Placeholder text Placeholder text Placeholder text Placeholder text
+          Placeholder text Placeholder text Placeholder text Placeholder text</p>
+        <span class="author">- Ernest Hemingway</span>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="slide-wrap">
+          <p>Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text
+            Placeholder text Placeholder text Placeholder text Placeholder text</p>
+          <span class="author">- Thomas A. Edison</span>
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      </section>
+    </section>
   <footer class="footer">
     <div class="footerbg">
       <div class="about">
@@ -68,5 +98,33 @@
       </div>
     </div>
   </footer>
+  <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
 </body>
 </html>

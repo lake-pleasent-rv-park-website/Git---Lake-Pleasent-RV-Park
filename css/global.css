@@ -149,8 +149,9 @@ footer h2, footer p {
 /* Footer columns */
 .about, .map {
   display: inline-block;
-  margin: 0 3%;
+  margin: 0 2%;
 }
+
 /* Contact column background */
 .contact {
   display: inline-block;
