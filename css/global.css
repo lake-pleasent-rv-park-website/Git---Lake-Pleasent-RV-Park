@@ -126,27 +126,25 @@ footer h2, footer p {
     width: 450px;
 }
 /* Footer background image */
-.footer {
+.footerbg {
   background-image: url("../img/footerbgimgalt2.jpg");
   background-position: center;
   background-size: cover;
 }
-/* Footer background color overlay */
-.footerbg {
+/* Footer background color & grid */
+.footer {
   background-color: rgba(0,24,74, 0.6);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 /* Column styles */
+.about, .map, .contact {
+  padding: 30px;
+}
 .contact {
   background-color: rgba(0,4,56, 0.3);
-    /* display: inline-block; */
-  padding: 30px;
-  width: 527px;
-}
-.about, .map {
-  padding: 30px;
+  width: 100%;
 }
 .map {
   text-align: center;
