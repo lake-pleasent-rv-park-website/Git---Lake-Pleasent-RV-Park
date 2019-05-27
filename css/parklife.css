@@ -6,12 +6,14 @@
   background-color: #DCDCDC;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .Box2 {
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .Box3 {
