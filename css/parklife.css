@@ -1,12 +1,6 @@
 /* For park life specific styles */
 /* this is for the different box elements of the page */
-.ParentDiv
-{
 
-  width: 100%;
-
-    text-align: center;
-}
 .Box1 {
   background-color: #DCDCDC;
   display: inline-block;
@@ -19,18 +13,9 @@
   background-color: white;
   display: inline-block;
   height: auto;
-    width: 100%;
-  position: relative;
-}
-
-.Box3 {
-  background-color: #DCDCDC;
-  display: inline-block;
-  height:  auto;
   width: 100%;
   position: relative;
 }
-
 
 img.resize {
   width: 40%;
@@ -54,50 +39,33 @@ img.resize1 {
   display: absolute;
 }
 
-img.resize2 {
+ img.resize2 {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: auto;
+  margin: 50px auto;
+  width: 50%;
   transform: rotate(270deg);
-
 }
 
 h1.title {
   vertical-align: middle;
   float: left;
   padding-left: 21%;
-  font-family: "Bitter", Arial, sans-serif;
-  font-size: 4.5vw;
-  color: #A18C51;
-  opacity: 1;
-  font-style: italic;
-  text-shadow: 1px 2px 6px rgba(32, 32, 32, 0.2);
-  position: absolute;
-
+  position: relative;
 }
 
 h1.title1 {
   vertical-align: middle;
   display: inline-block;
   padding-left: 21%;
-  font-family: "Bitter", Arial, sans-serif;
-  font-size: 4.5vw;
-  color: #A18C51;
-  opacity: 1;
-  font-style: italic;
-  text-shadow: 1px 2px 6px rgba(32, 32, 32, 0.2);
-  position: absolute;
+  position: relative;
 }
 
 p.bodytext {
-  height: auto;
+/*  height: auto; */
   width: 30%;
   top: 39%;
   left: 17%;
   vertical-align: middle;
-  text-shadow: 1px 2px 6px rgba(32, 32, 32, 0.2);
   font-size: 1vw;
   line-height: 1.7vw;
   position: absolute;
@@ -106,12 +74,11 @@ p.bodytext {
 }
 
 p.bodytext1 {
-  height: auto;
+/*  height: auto; */
   width: 30%;
   top: 30%;
   left: 67%;
   vertical-align: middle;
-  text-shadow: 1px 2px 6px rgba(32, 32, 32, 0.2);
   font-size: 1vw;
   line-height: 1.7vw;
   position: absolute;

@@ -31,15 +31,15 @@
 }
 /* Testimonials styles */
 .reviews {
-  position: relative;
   background-image: url("../img/footerbgimgalt2.jpg");
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 /*Testimonials background color */
 .reviewsbg {
   background-color: rgba(118,155,62, 0.7);
-  padding: 20px 0px;
+  padding: 60px 0px;
 }
 /* Testimonials heading */
 .slidetitle {
