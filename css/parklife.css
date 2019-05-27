@@ -18,8 +18,7 @@
 
 .Box3 {
   background-color: #DCDCDC;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  text-align: center;
 }
 /* column 1 syles */
 .col1 {
@@ -36,12 +35,17 @@
   border-radius: 30px;
 }
 .resize2 {
-  width: 100%;
-  transform: rotate(270deg);
+  height: 600px;
+  width: 900px;
+  margin: 30px;
 }
 /* font resizing */
 .col1 p, .col2 p {
   vertical-align: middle;
   font-size: 1em;
   line-height: 1.5em;
+}
+
+.resort {
+  margin: 10px;
 }

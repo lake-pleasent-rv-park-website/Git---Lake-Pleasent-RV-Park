@@ -30,7 +30,6 @@ header {
   margin: 50px 50px 0px 50px;
 }
 
-
 @media only screen and (max-width: 600px) {
   header h1 {
     font-size: 50px;
@@ -104,6 +103,10 @@ a:hover, .nav-active:hover {
 }
 .content-container2 {
     background-color: #EBEBEB;
+}
+
+section a {
+  color: blue;
 }
 section h1 {
     font-family: "Bitter", Arial, sans-serif;
