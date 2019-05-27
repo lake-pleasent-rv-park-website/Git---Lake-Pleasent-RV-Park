@@ -29,23 +29,24 @@
   text-align: center;
   padding: 50px;
 }
+/* font resizing */
+.col1 p, .col2 p {
+  font-size: 1em;
+  line-height: 2em;
+}
 /* image resizing */
 .resize {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 80px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .resize2 {
   height: 600px;
   width: 900px;
   margin: 30px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
-/* font resizing */
-.col1 p, .col2 p {
-  vertical-align: middle;
-  font-size: 1em;
-  line-height: 1.5em;
-}
-
 .resort {
-  margin: 10px;
+  padding: 30px 0px 20px 20px;
+  margin: 0px auto;
 }
