@@ -10,7 +10,7 @@
 } */
 .trails {
   width: 1208px;
-
+  max-width: 90%;
 }
 
 .spots {
