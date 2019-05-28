@@ -6,7 +6,7 @@ body {
 }
 /* Added height specificity for page header */
 header {
-	height: 80%;
+	height: 600px;
 	background-position: center;
 }
 /* Left top logo */

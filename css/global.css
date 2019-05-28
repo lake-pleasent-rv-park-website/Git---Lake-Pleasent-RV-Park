@@ -30,15 +30,6 @@ header {
   margin: 50px 50px 0px 50px;
 }
 
-@media only screen and (max-width: 600px) {
-  header h1 {
-    font-size: 50px;
-  }
-  header h2 {
-    font-size: 15px;
-  }
-}
-
 /* Big white header slogan */
 header h1 {
   font-size: 70px;
@@ -181,4 +172,8 @@ footer h2, footer p {
   border-radius: 50px;
   padding: 10px 20px;
   cursor: pointer;
+}
+/* override link color */
+#button {
+  color: #A18C51
 }
