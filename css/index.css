@@ -4,13 +4,16 @@
   text-align: center;
   margin: 50px;
 }
-/* Need to place over image, fix later */
-/*.favspot h1 {
-  text-align: center;
-} */
+
+/* img drop shadows and margins */
+.favimg {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
 .trails {
   width: 1208px;
   max-width: 90%;
+  margin-top: 30px;
 }
 
 .spots {
@@ -28,6 +31,7 @@
 .amenitiesimg {
   width: 80%;
   margin: 50px 0px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 /* Testimonials styles */
 .reviews {
