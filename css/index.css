@@ -1,5 +1,28 @@
 /* For index specific styles */
 /* Featured image link styles */
+
+.welcome {
+  background-color: #DCDCDC;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.col1 {
+  padding: 50px;
+}
+
+.col2 {
+  padding: 50px;
+  text-align: center;
+}
+
+.resize {
+  width: 100%;
+  border-radius: 80px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
 .favspot-wrap {
   text-align: center;
   margin: 50px;
