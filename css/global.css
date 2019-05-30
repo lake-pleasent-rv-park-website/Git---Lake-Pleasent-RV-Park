@@ -96,17 +96,18 @@ a:hover, .nav-active:hover {
     background-color: #EBEBEB;
 }
 
-section a {
-  color: blue;
+.section h1 {
+  font-family: "Bitter", Arial, sans-serif;
+  font-size: 60px;
+  color: #A18C51;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 32px;
+  text-shadow: 1px 2px 6px rgba(32,32,32, 0.2);
 }
-section h1 {
-    font-family: "Bitter", Arial, sans-serif;
-    font-size: 60px;
-    color: #A18C51;
-    font-style: italic;
-    font-weight: 400;
-    margin-bottom: 32px;
-    text-shadow: 1px 2px 6px rgba(32,32,32, 0.2);
+
+.section a {
+  color: #A18C51;
 }
 
 p {
