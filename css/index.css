@@ -66,7 +66,7 @@
 /*Testimonials background color */
 .reviewsbg {
   background-color: rgba(118,155,62, 0.7);
-  padding: 60px 0px;
+  padding: 50px;
 }
 /* Testimonials heading */
 #slidetitle {
@@ -76,15 +76,11 @@ margin: 0px 10px;
 color: #00184A;
 font-size: 40px;
 }
-/* Slides */
-.mySlides {
-  display: none;
-  padding: 30px 200px;
-  text-align: center;
-}
 /* Testimonials content wrapper */
 .slide-wrap {
+  text-align: center;
   padding: 10px 20px;
+  margin: 10px 50px;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 40px;
 }
@@ -105,12 +101,14 @@ font-size: 40px;
 .prev {
   position: absolute;
   left: 1%;
+  margin-right: 10px;
   border-radius: 50px;
 }
 /* next button styles */
 .next {
   position: absolute;
   right: 1%;
+  margin-left: 10px;
   border-radius: 50px;
 }
 /* prev, next hover styles */
@@ -132,11 +130,17 @@ font-size: 40px;
   font-style: italic;
 }
 /* For smaller devices */
-@media screen and (max-width: 700px) {
-.mySlides {
-  padding: 25px 10%;
-  margin: 1%;
-  font-size: 18px;
+@media screen and (max-width: 600px) {
+.slide-wrap, .slide-wrap p {
+  font-size: 17px;
+  margin: 0px 5%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+.slide-wrap, .slide-wrap p {
+  font-size: 14px;
+  margin: 0px 3%;
     }
 }
 

@@ -146,12 +146,12 @@ footer h2, footer p {
   background-color: rgba(0,24,74, 0.6);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(470px, 1fr));
 }
 /* Column styles */
 .about, .map, .contact {
   padding: 30px;
-  max-width: 100%;
+
   height: auto;
 }
 .contact {
@@ -179,5 +179,5 @@ footer h2, footer p {
 }
 /* override link color */
 #button {
-  color: #A18C51
+  color: #A18C51;
 }
