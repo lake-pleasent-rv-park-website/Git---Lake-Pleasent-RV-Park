@@ -18,7 +18,7 @@ html, body {
 /* Header styles */
 header {
   color: white;
-  font-family: "Segoe UI", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   background-image: url("../img/headerbgimg.jpg");
   background-size: cover;
   height: 900px;
@@ -102,7 +102,7 @@ a:hover, .nav-active:hover {
 }
 
 .section h1 {
-  font-family: "Bitter", Arial, sans-serif;
+  font-family: "Bitter", serif;
   font-size: 60px;
   color: #A18C51;
   font-style: italic;
@@ -116,7 +116,7 @@ a:hover, .nav-active:hover {
 }
 
 p {
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     color: #464444;
     text-shadow: 1px 2px 6px rgba(32,32,32, 0.2);
@@ -124,7 +124,7 @@ p {
 /* END MAIN CONTENT STYLES */
 /* Footer Styles */
 footer h1 {
-    font-family: "Bitter", Arial, sans-serif;
+    font-family: "Bitter", serif;
     font-size: 40px;
     color: #A18C51;
     font-style: italic;
@@ -134,7 +134,7 @@ footer h1 {
 }
 /* More footer styles */
 footer h2, footer p {
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     color: #CCCCCC;
     text-shadow: 2px 2px 6px rgb(32,32,32, 0.5);
@@ -180,7 +180,7 @@ iframe {
 }
 /* Get Directions Button */
 .footer-button {
-  font-family: "Bitter", Arial, sans-serif;
+  font-family: "Bitter", serif;
   font-size: 20px;
   color: #A18C51;
   background-color: transparent;
