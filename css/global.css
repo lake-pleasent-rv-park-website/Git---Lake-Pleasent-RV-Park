@@ -160,6 +160,12 @@ footer h2, footer p {
 .contact {
   background-color: rgba(0,4,56, 0.3);
 }
+/***GOOGLE MAP IN FOOTER***/
+iframe {
+    border: 0;
+    width: inherit;
+    height: inherit;
+}
 .map {
   text-align: center;
 }
