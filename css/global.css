@@ -177,6 +177,7 @@ iframe {
   width: 400px;
   height: 400px;
   overflow: hidden;
+  margin-top: 40px;
 }
 /* Get Directions Button */
 .footer-button {
@@ -186,7 +187,7 @@ iframe {
   background-color: transparent;
   border: 2px solid #A18C51;
   border-radius: 50px;
-  padding: 10px 20px;
+  padding: 0px 20px;
   cursor: pointer;
 }
 /* override link color */
